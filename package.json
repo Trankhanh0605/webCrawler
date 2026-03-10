@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "Project to learn http of Lane Wagner",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trankhanh0605/webCrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trankhanh0605/webCrawler/issues"
+  },
+  "homepage": "https://github.com/Trankhanh0605/webCrawler#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
