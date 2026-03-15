@@ -1,5 +1,5 @@
 const{crawlPage}=require('./crawl.js')
-
+const{printReport}=require('./report.js')
 async function main () {
     /* process.argv is an array that contains the command-line 
     arguments passed when you run a script.
@@ -29,9 +29,7 @@ async function main () {
     
     const pages = await crawlPage(baseURL, baseURL, {})
     
-    for (const page of Object.entries(pages)) {
-        console.log(page)
-    }
+    printReport(pages)
 }
 
 // process command line arguments
